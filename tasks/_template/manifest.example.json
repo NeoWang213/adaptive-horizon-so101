@@ -1,0 +1,18 @@
+{
+  "task_id": "REPLACE_WITH_TASK_ID",
+  "display_name": null,
+  "status": "planned",
+  "robot": "SO-ARM101",
+  "resource_directories": {
+    "act_model": "models/act/<task_id>/",
+    "pi05_model": "models/pi05/<task_id>/",
+    "horizon_mlp": "models/horizon_mlp/<task_id>/",
+    "data": "data/<task_id>/",
+    "annotations": "data/annotations/<task_id>/",
+    "config": "configs/adaptive_horizon/<task_id>/",
+    "demos": "media/demos/<task_id>/",
+    "results": "results/<task_id>/"
+  },
+  "success_criterion": null,
+  "notes": null
+}

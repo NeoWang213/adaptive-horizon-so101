@@ -1,0 +1,12 @@
+{
+  "task": "block_to_box",
+  "model_type": "horizon_mlp",
+  "status": "pending_upload",
+  "url": null,
+  "repo_id": null,
+  "revision": null,
+  "files": [],
+  "license": null,
+  "code_commit": null,
+  "notes": null
+}
