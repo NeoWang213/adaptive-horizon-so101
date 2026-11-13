@@ -2,7 +2,7 @@
 
 | 场景 | 入口 | 状态 |
 |---|---|---|
-| 抓取物块并放入盒子 | [block_to_box](block_to_box/README.md) | 待上传 |
+| 抓取物块并放入盒子 | [block_to_box](block_to_box/README.md) | 180 条数据已发布，模型及评估待补充 |
 | 捡起笔并放入笔筒 | [pen_to_holder](pen_to_holder/README.md) | 待上传 |
 | 后续其他场景 | [_template](_template/README.md) | 可复制扩展 |
 
