@@ -8,10 +8,12 @@ A research project exploring adaptive execution horizons for chunked robot
 policies, with planned deployment of ACT and fine-tuned π0.5 on SO-ARM101.
 
 > **Research in progress.** This repository currently provides a project overview
-> and placeholders for future resources. ACT checkpoints, fine-tuned π0.5
-> checkpoints, the Horizon MLP module, datasets, and real-robot comparisons will
+> and a published block-to-box dataset. ACT checkpoints, fine-tuned π0.5
+> checkpoints, the Horizon MLP module, further datasets, and real-robot comparisons will
 > be added as the research progresses. Improvements in success rate, computation,
 > and task completion time have not yet been established.
+
+**Dataset available:** [180 block-to-box demonstrations](https://github.com/NeoWang213/adaptive-horizon-so101/releases/tag/dataset-block-to-box-20261110-180) (58,654 frames; two cameras; LeRobot v2.1). See the [download and extraction guide](data/block_to_box/README.md).
 
 ## Research objective
 
@@ -69,7 +71,7 @@ Platform: **SO-ARM101**.
 
 | Task | Scenario | Resources |
 |---|---|---|
-| `block_to_box` | Pick up a block and place it in a box | [Task resources](tasks/block_to_box/README.md); pending upload |
+| `block_to_box` | Pick up a block and place it in a box | [180-episode dataset](data/block_to_box/README.md); models and evaluation pending |
 | `pen_to_holder` | Pick up a pen and place it in a pen holder | [Task resources](tasks/pen_to_holder/README.md); pending upload |
 | Future tasks | Additional scenarios as the research develops | [New-task template](tasks/_template/README.md) |
 
@@ -129,6 +131,7 @@ records.
 
 - [x] Define the research objective, robot platform, and two initial tasks.
 - [x] Prepare the project overview and resource placeholders.
+- [x] Publish 180 block-to-box demonstrations and SHA-256 checksums.
 - [ ] Release ACT checkpoints and usage documentation.
 - [ ] Release fine-tuned π0.5 checkpoints and usage documentation.
 - [ ] Finalize MLP inputs, targets, and horizon selection; release the module and weights.
@@ -145,7 +148,7 @@ Local development is based on
 [Hugging Face LeRobot](https://github.com/huggingface/lerobot). Its complete
 upstream Git history and existing experimental code remain in the local
 development workspace. This presentation repository currently publishes only
-the project overview and resource placeholders, retaining attribution and the
+the project overview, dataset documentation, and resource placeholders, retaining attribution and the
 [Apache-2.0 license](LICENSE). Local experimental prototypes will be organized
 and released separately.
 
