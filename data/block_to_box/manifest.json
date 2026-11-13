@@ -1,0 +1,43 @@
+{
+  "status": "published",
+  "task": "block_to_box",
+  "name": "demo_20261110_180",
+  "url": "https://github.com/NeoWang213/adaptive-horizon-so101/releases/download/dataset-block-to-box-20261110-180/demo_20261110_180.zip",
+  "repo_id": "NeoWang213/adaptive-horizon-so101",
+  "revision": "dataset-block-to-box-20261110-180",
+  "hosting": "GitHub Releases",
+  "format": "LeRobot v2.1",
+  "episodes": 180,
+  "frames": 58654,
+  "videos": 360,
+  "control_hz": 30,
+  "robot_type": "so101_follower",
+  "task_instruction": "put the blue cube into the box",
+  "cameras": {
+    "observation.images.handeye": {
+      "height": 480,
+      "width": 640,
+      "fps": 30,
+      "codec": "av1"
+    },
+    "observation.images.front": {
+      "height": 480,
+      "width": 640,
+      "fps": 30,
+      "codec": "av1"
+    }
+  },
+  "action_dimensions": 6,
+  "state_dimensions": 6,
+  "splits": {
+    "train": "0:180"
+  },
+  "license": null,
+  "archive": {
+    "filename": "demo_20261110_180.zip",
+    "bytes": 1032533051,
+    "sha256": "547fcff1fcec7ac3dc04e188270b19497ab69c88d6ca31226683aed31d85e8bd"
+  },
+  "notes": "Original metadata assigns all episodes to train (0:180); no independent validation/test split or task-success audit is supplied. Dataset license has not been separately specified.",
+  "published_at": "2026-11-13T03:15:32Z"
+}
